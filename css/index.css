@@ -1,0 +1,182 @@
+/* -------------------通用样式 begin--------------------- */
+body{
+  font-family: 'Helvetica Neue',Helvetica,Arial,  sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+@font-face{
+  font-family: lk;
+  src:url('../../fonts/ZiTiQuanXinYiJiXiangSong-2.ttf') format('truetype')
+}
+/* -------------------通用样式 end--------------------- */
+
+/* -------------------头部 begin--------------------- */
+#lk_header{
+}
+
+#lk_header .top-bar{
+  height: 40px;
+  line-height: 39px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#lk_header .top-bar .container .row>div+div{
+  border-left: 1px solid #e0e0e0;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a{
+  position: relative;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a img{
+  position: absolute;
+  left:50%;
+  top:20px;
+  transform: translateX(-50%);
+  z-index: 999;
+  display: none;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a:hover img{
+  display: block;
+}
+
+.icon-phone{
+  width:15px;
+  height:15px;
+  display: inline-block;
+  background-image: url('../imgs/phone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* 导航 */
+#lk_header .navbar-lk{
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#lk_header .navbar-lk .navbar-brand{
+  height:90px;
+  margin-right: 60px;
+  margin-left: 15px;
+}
+
+#lk_header .navbar-lk .navbar-brand img{
+  width: 130px;
+}
+
+#lk_header .navbar-lk .navbar-nav>li>a{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#lk_header .navbar-lk .navbar-nav>li>a:hover{
+  border-bottom: 2px solid purple;
+}
+
+
+/* -------------------轮播图 begin--------------------- */
+#lk_carousel{
+
+}
+
+#lk_carousel .carousel-item{
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+#lk_carousel .carousel-item>img{
+  width: 100%;
+  background-position: center;
+}
+
+@media screen and (min-width:900px){
+
+  #lk_carousel .carousel-item{
+    height: 410px ; 
+  }
+}
+
+
+/* -------------------轮播图 end--------------------- */
+
+/* -------------------热门课程 begin--------------------- */
+#lk_hot{
+}
+
+#lk_hot .container .row img{
+  width:64px;
+  height: 64px;
+  border-radius:50%;
+}
+/* -------------------热门课程 end--------------------- */
+
+/* -------------------产品中心 begin--------------------- */
+#lk_product{
+  background-color: rgb(233,236,239);
+  padding-top: 10px;
+}
+
+#lk_product .nav-item a{
+  color:black;
+}
+#lk_product .nav-item:hover a{
+  color:purple;
+}
+
+#lk_product .nav-item{
+  border-bottom: 4px solid transparent;
+  padding: 2px;
+}
+#lk_product .nav-item:hover{
+  border-bottom: 4px solid purple;
+}
+/* -------------------产品中心 end--------------------- */
+
+/* -------------------关于我们 begin--------------------- */
+#lk_about{
+}
+/* -------------------关于我们 end--------------------- */
+
+/* -------------------友情链接 begin--------------------- */
+#lk_link{
+}
+/* -------------------友情链接 end--------------------- */
+
+/* -------------------尾部 begin--------------------- */
+#lk_foot{
+  color:#fff;
+  font-size:16px;
+  width:100%;
+  height:200px;
+  background: url('../imgs/4.jpg')  center;
+}
+
+#lk_foot .container .row a{
+  color:#fff;
+
+}
+
+#lk_foot .container  img{
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+}
+
+
+#lk_foot .container .row{
+  height:200px;
+  
+}
+/* -------------------尾部 end--------------------- */
